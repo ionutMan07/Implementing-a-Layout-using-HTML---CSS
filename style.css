@@ -58,6 +58,7 @@ li a{
     justify-content: center;
 }
 .tech{
+    z-index: 1;
     padding: 10px 20px;
     letter-spacing: 5px;
     border-radius: 10px;
@@ -66,5 +67,32 @@ li a{
     text-align: center;
     width: 77%;
     transform: rotate(-10deg) skew(30deg) scaleX(1.1);
-    
+}
+.box1, .box2{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(34, 101, 169);
+    color: white;
+}
+.box1{
+    width: 260px;
+    top: 170px;
+    left: 23%;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+}
+h4{
+    width: 220px;
+    border-bottom: 1px dashed white;
+    padding: 5px;
+    text-align: left;
+}
+.box2{
+    padding: 10px 25px;
+    top: 360px;
+    right: 350px;
+    height: 60px;
+    text-align: center;
+    font-size: 45px;
 }
