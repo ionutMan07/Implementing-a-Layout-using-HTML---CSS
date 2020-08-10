@@ -1,4 +1,35 @@
+
 body, html{
     margin: 0;
     padding: 0;
+    max-width: 960px;
+    /* align-items: center; */
+    border: 1px solid black;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+li a{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    margin: 2px;
+    color: white;
+    background-color: rgb(77, 52, 223);
+}
+.name{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.name h1{
+    margin-left: 0 auto;
 }
