@@ -1,12 +1,12 @@
 
 body, html{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 960px;
-    /* align-items: center; */
-    border: 1px solid black;
+    align-items: center;
 }
 nav ul{
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -27,9 +27,14 @@ li a{
 .name{
     display: flex;
     margin: 0;
+    padding: 0 40px;
     align-items: center;
-    /* justify-content: space-around; */
 }
-.name h1{
-    margin-left: 0 auto;
+.title h1{
+    flex: 3 1 auto;
+}
+
+.contact{
+
+    line-height: 3px;
 }
