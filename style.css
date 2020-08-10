@@ -26,7 +26,7 @@ li a{
 }
 .name{
     display: flex;
-    margin: 0;
+    margin: -10px 0px;
     padding: 0px 40px;
     align-items: center;
 
@@ -46,4 +46,24 @@ li a{
     margin-left: 0 auto;
     line-height: 3px;
     font-size: 12px;
+}
+.blue {
+    display: flex;
+    max-width: 960px;
+    margin: 30px 40px;
+    height: 35vh;
+    background-color: rgb(87, 133, 233);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.tech{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: teal;
+    font-size: 6rem;
+    text-align: center;
+    width: 77%;
+    transform: rotate(-10deg);
+    
 }
