@@ -38,23 +38,26 @@ li a{
 }
 .title {
     Flex: 0 1 auto;
-    font-size: 30px;
+    font-size: 1.5rem;
     border-right: 1px solid black;
     padding-right: 10px;
+    font-weight: 700;
 }
 .title2{
     padding-left: 10px;
     flex: 1 1 auto;
+    font-size: 0.8rem;
 }
 
 .contact{
     margin-left: 0 auto;
     line-height: 3px;
-    font-size: 12px;
+    font-size: 0.7rem;
 }
 /* ******End 2nd Row with Title********** */
 /* ********Start blue box with containers */
 .blue {
+    position: relative;
     display: flex;
     max-width: 960px;
     margin: 30px 40px;
@@ -83,7 +86,7 @@ li a{
 }
 .box1{
     width: 260px;
-    top: 170px;
+    top: 22%;
     left: 23%;
     font-size: 12px;
     text-align: justify;
