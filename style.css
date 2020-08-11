@@ -72,13 +72,10 @@ li a{
 }
 .tech{
     padding: 0px 10px;
-    /* letter-spacing: 5px; */
     border-radius: 5px;
     background-color: rgb(49, 137, 77);
-    /* font-size: 5.7rem; */
     text-align: justify;
-    /* width: 77%; */
-    transform: rotate(-15deg) skew(20deg) scaleX(6) scaleY(11);
+    transform: rotate(-15deg) skew(20deg) scaleX(6) scaleY(10);
 }
 .box1, .box2{
     background-color: rgb(34, 101, 169);
