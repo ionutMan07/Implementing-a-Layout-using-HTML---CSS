@@ -4,6 +4,7 @@ body, html{
     padding: 0;
     max-width: 960px;
     align-items: center;
+    font-family: 'Lora', serif;
 }
 nav ul{
     padding: 0;
@@ -82,11 +83,12 @@ li a{
     text-align: justify;
     padding: 10px;
 }
-h4{
+.box1::first-line{
     width: 220px;
     border-bottom: 1px dashed white;
     padding: 5px;
     text-align: left;
+    font-size: 16px;
 }
 .box2{
     padding: 10px 25px;
