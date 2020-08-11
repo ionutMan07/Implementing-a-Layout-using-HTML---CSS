@@ -117,6 +117,7 @@ li a{
 }
 .container{
     max-width: 960px;
+    margin-bottom: 20px;
     flex: 1;
     padding: 15px;
     justify-content: space-between;
@@ -126,6 +127,7 @@ li a{
 }
 .container2{
     margin: 0 30px;
+    margin-bottom: 20px;
 }
 .container p:first-child{
     border-bottom: 1px dashed gray;
