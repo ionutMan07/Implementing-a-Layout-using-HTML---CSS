@@ -60,7 +60,7 @@ li a{
 /* ********Start blue box with containers */
 .blue {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     display: flex;
     max-width: 960px;
     margin: 0px 40px;
@@ -81,16 +81,15 @@ li a{
     transform: rotate(-10deg) skew(30deg) scaleX(1.1);
 }
 .box1, .box2{
-    
     background-color: rgb(34, 101, 169);
     color: white;
 }
 .box1{
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     width: 260px;
-    top: 20;
-    left: 23;
+    top: 2em;
+    left: 2em;
     font-size: 12px;
     text-align: justify;
     padding: 10px;
@@ -103,8 +102,10 @@ li a{
     font-size: 16px;
 }
 .box2{
+    position: absolute;
+    z-index: 1;
     padding: 10px 25px;
-    top: 360px;
+    top: 9rem;
     right: 350px;
     height: 60px;
     text-align: center;
