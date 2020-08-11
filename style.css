@@ -8,6 +8,7 @@ body, html{
 }
 /* ****Start Nav******** */
 nav ul{
+    margin: 5px auto;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +23,6 @@ li a{
     padding: 20px 50px;
     align-items: center;
     text-align: center;
-    height: 15px;
     margin: 2px;
     color: white;
     background-color: rgb(34, 101, 169);
@@ -30,23 +30,25 @@ li a{
 /* ************* End Nav *************** */
 /* ******Start 2nd Row with Title********** */
 .name{
+    max-width: 960px;
+    margin: 20px auto;
     display: flex;
-    margin: -10px 0px;
     padding: 0px 40px;
     align-items: center;
 
 }
 .title {
     Flex: 0 1 auto;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border-right: 1px solid black;
     padding-right: 10px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .title2{
     padding-left: 10px;
     flex: 1 1 auto;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .contact{
@@ -58,9 +60,10 @@ li a{
 /* ********Start blue box with containers */
 .blue {
     position: relative;
+    z-index: 1;
     display: flex;
     max-width: 960px;
-    margin: 30px 40px;
+    margin: 0px 40px;
     height: 35vh;
     background-color: rgb(189, 217, 254);
     color: white;
@@ -68,7 +71,6 @@ li a{
     justify-content: center;
 }
 .tech{
-    z-index: 1;
     padding: 10px 20px;
     letter-spacing: 5px;
     border-radius: 10px;
@@ -79,15 +81,16 @@ li a{
     transform: rotate(-10deg) skew(30deg) scaleX(1.1);
 }
 .box1, .box2{
-    position: absolute;
-    z-index: 2;
+    
     background-color: rgb(34, 101, 169);
     color: white;
 }
 .box1{
+    position: absolute;
+    z-index: 0;
     width: 260px;
-    top: 22%;
-    left: 23%;
+    top: 20;
+    left: 23;
     font-size: 12px;
     text-align: justify;
     padding: 10px;
