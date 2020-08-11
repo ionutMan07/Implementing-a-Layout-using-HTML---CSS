@@ -64,7 +64,7 @@ li a{
     display: flex;
     max-width: 960px;
     margin: 0px 40px;
-    height: 53vh;
+    height: 100vh;
     background-color: rgb(189, 217, 254);
     color: white;
     align-items: center;
@@ -75,8 +75,10 @@ li a{
     border-radius: 5px;
     background-color: rgb(49, 137, 77);
     text-align: justify;
-    transform: rotate(-15deg) skew(20deg) scaleX(6) scaleY(10);
+    font-size: 9vw;
+    transform: rotate(-15deg) skew(20deg);
 }
+
 .box1, .box2{
     background-color: rgb(34, 101, 169);
     color: white;
@@ -105,5 +107,16 @@ li a{
     top: 31rem;
     right: 22rem;
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 1.8rem;
+}
+@media screen and (min-width: 900px) {
+.blue {
+height: 53vh;
+}
+.tech{
+font-size: 7rem;
+}
+.box2{
+  font-size: 3.8rem;
+}
 }
