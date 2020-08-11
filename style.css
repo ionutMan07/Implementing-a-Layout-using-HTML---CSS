@@ -6,6 +6,7 @@ body, html{
     align-items: center;
     font-family: 'Lora', serif;
 }
+/* ****Start Nav******** */
 nav ul{
     padding: 0;
     display: flex;
@@ -13,6 +14,7 @@ nav ul{
     list-style: none;
     justify-content: center;
 }
+
 li a{
     display: flex;
     text-decoration: none;
@@ -20,11 +22,13 @@ li a{
     padding: 20px 50px;
     align-items: center;
     text-align: center;
-    height: 20px;
+    height: 15px;
     margin: 2px;
     color: white;
-    background-color: rgb(77, 52, 223);
+    background-color: rgb(34, 101, 169);
 }
+/* ************* End Nav *************** */
+/* ******Start 2nd Row with Title********** */
 .name{
     display: flex;
     margin: -10px 0px;
@@ -48,12 +52,14 @@ li a{
     line-height: 3px;
     font-size: 12px;
 }
+/* ******End 2nd Row with Title********** */
+/* ********Start blue box with containers */
 .blue {
     display: flex;
     max-width: 960px;
     margin: 30px 40px;
     height: 35vh;
-    background-color: rgb(87, 133, 233);
+    background-color: rgb(189, 217, 254);
     color: white;
     align-items: center;
     justify-content: center;
@@ -63,7 +69,7 @@ li a{
     padding: 10px 20px;
     letter-spacing: 5px;
     border-radius: 10px;
-    background-color: teal;
+    background-color: rgb(49, 137, 77);
     font-size: 5.7rem;
     text-align: center;
     width: 77%;
