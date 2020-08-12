@@ -134,7 +134,26 @@ li a{
     text-align: center;
     font-size: 1.2rem;
 }
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: content-box;
+    z-index: 1;
+    width: 248px;
+    height: 97px;
+    background-color: white;
+    border: 1px solid black;
+}
 .blackbox{
+    position: absolute;
+    z-index: 2;
+    top: 2;
+    right: 2;
+    bottom: 2;
+    left: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +164,6 @@ li a{
     background-color:#3a3b3f;
     color: white;
     margin: 0 auto;
-    border: 5px double white;
 }
 
 .container a{
