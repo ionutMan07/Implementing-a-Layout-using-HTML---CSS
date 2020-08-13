@@ -62,7 +62,7 @@ li a{
     z-index: 0;
     display: flex;
     max-width: 960px;
-    height: 100vh;
+    height: 50vh;
     background-color: rgb(189, 217, 254);
     color: white;
     align-items: center;
@@ -84,7 +84,9 @@ li a{
 .box1{
     position: absolute;
     z-index: 1;
-    width: 316px;
+    overflow: hidden;
+    width: 33%;
+    height: 37%;
     top: 2em;
     left: 2em;
     font-size: 0.8rem;
@@ -103,8 +105,8 @@ li a{
     position: absolute;
     z-index: 1;
     padding: 10px 25px;
-    top: 31rem;
-    right: 20rem;
+    top: 29rem;
+    right: 19rem;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -113,13 +115,10 @@ li a{
 .boxes1{
     display: flex;
     flex-wrap: wrap;
-    margin: 80px 0px;
-    border-bottom: 1px dashed black;
-
+    margin: 50px 0px;
 }
 .container{
     max-width: 960px;
-    margin-bottom: 20px;
     flex: 1;
     padding: 15px;
     justify-content: space-between;
@@ -129,7 +128,6 @@ li a{
 }
 .container2{
     margin: 0 30px;
-    margin-bottom: 20px;
 }
 .container p:first-child{
     border-bottom: 1px dashed gray;
@@ -174,7 +172,9 @@ li a{
     color: #0c57ad;
     font-weight: 600;
 }
-
+pre{
+    overflow: hidden;
+}
 
 
 
@@ -189,6 +189,7 @@ li a{
 
 
 @media screen and (min-width: 900px) {
+
 .blue {
 height: 53vh;
 }
@@ -198,4 +199,9 @@ font-size: 7.4rem;
 .box2{
   font-size: 3.8rem;
 }
+}
+@media screen and (max-width: 600px) {
+    .container2{
+        margin:0;
+    }
 }
