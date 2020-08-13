@@ -16,7 +16,7 @@ nav ul{
     justify-content: space-between;
 }
 
-li a{
+li > a{
     display: flex;
     text-decoration: none;
     text-transform: uppercase;
@@ -175,7 +175,16 @@ li a{
 pre{
     overflow: hidden;
 }
-
+footer{
+    display: flex;
+    background-color: #2265a9;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+}
+.footerleft{
+    flex: 1;
+}
 
 
 
