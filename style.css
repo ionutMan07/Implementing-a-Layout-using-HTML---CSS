@@ -32,6 +32,7 @@ li a{
     max-width: 960px;
     margin: 20px auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
 }
@@ -111,6 +112,7 @@ li a{
 /*********Start raw with 3box containers ******/
 .boxes1{
     display: flex;
+    flex-wrap: wrap;
     margin: 80px 0px;
     border-bottom: 1px dashed black;
 
