@@ -115,7 +115,7 @@ li > a{
 .boxes1{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0px;
+    margin-top: 50px;
 }
 .container{
     max-width: 920px;
@@ -236,15 +236,14 @@ pre{
     margin: 0 auto;
 }
 .categories h2{
-    margin-top: 10px;
-    margin-bottom: 0;
+    font-size: 1.3rem;
+    margin: 0;
     color: #aaaaaa;
     vertical-align: top;
 }
 .categories pre{
     margin: 0;
     overflow: hidden;
-    padding: 0;
     color: #aaaaaa;
     vertical-align: top;
 }
@@ -252,6 +251,7 @@ pre{
     display: block;
     border-bottom: 1px solid #bbbcb7;
     font-size: 0.8rem;
+    line-height: 12px;
     text-decoration: none;
 }
 /************6TH ROW 5 BOXES********/
