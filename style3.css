@@ -23,7 +23,7 @@ ul{
     position: absolute;
     top: 25px;
     left: -2px;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
 .sub-menu li{
     background: yellowgreen;
